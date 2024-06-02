@@ -11,3 +11,5 @@ function adjustToWorkingHours(date) {
 }
 
 module.exports = { adjustToWorkingHours };
+// set working hour to 9:00 o'clock if hour entered is smaller than 9, 
+// set work hour as next day 9'clock if hour entered is greated then 17
