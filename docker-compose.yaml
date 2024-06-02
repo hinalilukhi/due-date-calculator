@@ -1,0 +1,15 @@
+version: '3'
+services:
+  backend:
+    image: backend-image
+    build: backend-image
+    ports:
+      - "3001:3001"
+    restart: always
+  
+  frontend:
+    image: frontend-image
+    build: frontend-image
+    ports:
+      - "80:80"
+    restart: always
