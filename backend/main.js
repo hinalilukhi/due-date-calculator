@@ -1,5 +1,6 @@
 const { getHolidays, isHoliday } = require('./src/holidays');
 const { adjustToWorkingHours } = require("./src/adjustToWorkingHours");
+const { MoveToNextWorkingDay } = require("./src/moveToNextWorkDay");
 
 async function calculateDueDate(submitDate, turnaroundHours) {
     let dueDate = new Date(submitDate);
