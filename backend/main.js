@@ -1,6 +1,10 @@
+const { getHolidays, isHoliday } = require('./src/holidays');
+
 async function calculateDueDate(submitDate, turnaroundHours) {
     let dueDate = new Date(submitDate);
     let hoursRemaining = turnaroundHours;
+     
+    const holidays = await getHolidays();
 
 
     return {
