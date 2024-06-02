@@ -18,4 +18,4 @@ async function isHoliday(date, holidays) {
 }
 
 module.exports = { getHolidays, isHoliday };
-//check if given day is holiday or not
+//check if submit day is holiday or not

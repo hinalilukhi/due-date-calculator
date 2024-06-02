@@ -17,7 +17,7 @@ describe('adjustToWorkingHours', () => {
         expect(result.getDate()).toBe(date.getDate());
     });
 
-    it('It should not adjust given hours in the working hours', () => {
+    it('It should not adjust submit hours in the working hours', () => {
         const date = new Date('2024-06-01T10:00:00');
         const result = adjustToWorkingHours(date);
         expect(result.getHours()).toBe(10);

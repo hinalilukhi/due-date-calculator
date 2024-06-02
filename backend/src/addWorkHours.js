@@ -6,4 +6,4 @@ function addWorkingHours(date, hours) {
 
 module.exports = { addWorkingHours };
 
-// add specific number of work hours to the given date
+// add specific number of work hours to the submit date

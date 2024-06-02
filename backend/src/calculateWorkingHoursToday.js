@@ -8,4 +8,4 @@ function calculateWorkingHoursToday(date) {
 
 module.exports = { calculateWorkingHoursToday };
 
-// Calculte the remaining working hours left in the given day
+// Calculte the remaining working hours left in the submit day

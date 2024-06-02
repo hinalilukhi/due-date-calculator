@@ -13,9 +13,9 @@ async function calculateDueDate(submitDate, turnaroundHours) {
 
     while (hoursRemaining > 0) {
         dueDate = adjustToWorkingHours(dueDate); 
-        // adjust the given time in the working hour for example user requested on 8:00 o'clock, it got adjust to 9:00
+        // adjust the submit time in the working hour for example user requested on 8:00 o'clock, it got adjust to 9:00
 
-        if (await isHoliday(dueDate, holidays) && dueDate.getDay() !== 4) { // Check if given day is holiday and not a thirsday
+        if (await isHoliday(dueDate, holidays) && dueDate.getDay() !== 4) { // Check if submit day is holiday and not a thirsday
             dueDate = moveToNextWorkingDay(dueDate); // if day is holiday move to next day except for thursdya
             continue;
         }
