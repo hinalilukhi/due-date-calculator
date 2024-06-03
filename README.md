@@ -17,11 +17,11 @@ Followed Test Driven Developement while writing the code,
 Tried to make my code as clean as possible
 
 **Technology stack:**
-Backend : Node, express, dotenv (useful in protecting the secret constant values)
-Frontend : HTML, CSS, JavaScript
-Containarization: Docker
-Testing : Jest
-Third Pary API: calendarific holiday API (Fetches all the holidays for the year of 2024)
+**Backend :** Node, express, dotenv (useful in protecting the secret constant values)
+**Frontend :** HTML, CSS, JavaScript
+**Containarization:** Docker
+**Testing :** Jest
+**Third Pary API:** calendarific holiday API (Fetches all the holidays for the year of 2024)
 
 Two backend APIs:
 1. http://localhost:3001/calculateDueDate/
