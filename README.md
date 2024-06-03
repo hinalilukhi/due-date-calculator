@@ -3,6 +3,10 @@
 2. If you have docker installed in your computer
    - **docker-compose up**
 
+To run the test follow this commands: 
+1. cd backend
+2. npm test
+
 How to access in browser: **http://localhost:8080/**
 
 
