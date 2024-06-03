@@ -1,10 +1,10 @@
 **--- Two ways to run the project**: \\
-1. npm start
+1. npm start OR
 2. If you have docker installed in your computer
    - **docker-compose up**
 
 To run the test follow this commands: 
-1. cd backend
+1. cd backend 
 2. npm test
 
 How to access in browser: **http://localhost:8080/**
@@ -21,11 +21,11 @@ Followed Test Driven Developement while writing the code,
 Tried to make my code as clean as possible
 
 **Technology stack:**
-**Backend :** Node, express, dotenv (useful in protecting the secret constant values)
-**Frontend :** HTML, CSS, JavaScript
-**Containarization:** Docker
-**Testing :** Jest
-**Third Pary API:** calendarific holiday API (Fetches all the holidays for the year of 2024)
+1. Backend : Node, express, dotenv (useful in protecting the secret constant values)
+2. Frontend : HTML, CSS, JavaScript
+3. Containarization: Docker
+4. Testing : Jest
+5. Third Pary API: calendarific holiday API (Fetches all the holidays for the year of 2024)
 
 Two backend APIs:
 1. http://localhost:3001/calculateDueDate/
