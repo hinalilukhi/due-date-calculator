@@ -1,4 +1,4 @@
-**--- Two ways to run the project**: 
+**--- Two ways to run the project**: \\
 1.**npm start**
 2. If you have docker installed in your computer
    - **docker-compose up**
