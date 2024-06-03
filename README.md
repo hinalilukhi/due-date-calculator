@@ -1,13 +1,12 @@
-To run this project:
---- Two ways to run the project: 
-1. npm start
+**--- Two ways to run the project**: 
+1.**npm start**
 2. If you have docker installed in your computer
-   - docker-compose.up
+   - **docker-compose up**
 
-How to access in browser: http://localhost:8080/
+How to access in browser: **http://localhost:8080/**
 
 
-Task achieved :
+**Task achieved** :
 1. Working hours: From monday to friday 9 to 17, holiday is not working hour, company is open on all thursay even if it is holiday
 2. Turnaroud time: Adding hours on the working time
 3. User can only report a problem in the working hour
@@ -17,7 +16,7 @@ Additional task: User can forcefully report a problem even if it is not working 
 Followed Test Driven Developement while writing the code,
 Tried to make my code as clean as possible
 
-Technology stack:
+**Technology stack:**
 Backend : Node, express, dotenv (useful in protecting the secret constant values)
 Frontend : HTML, CSS, JavaScript
 Containarization: Docker
