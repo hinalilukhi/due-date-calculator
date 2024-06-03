@@ -1,15 +1,17 @@
-version: '3'
+version: '3.8'
+
 services:
   backend:
-    image: backend-image
-    build: backend-image
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
     ports:
-      - "3001:3001"
-    restart: always
-  
+      - "3002:3001"
   frontend:
-    image: frontend-image
-    build: frontend-image
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     ports:
-      - "80:80"
-    restart: always
+      - "8080:80"
+
+ 
