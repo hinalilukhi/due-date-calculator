@@ -16,8 +16,9 @@ document.getElementById('dueDateForm').addEventListener('submit', async function
         const data = await response.json();
         if(data.dueDate){
         document.getElementById('result').innerText = `Due Date: ${data.dueDate}, Due Time: ${data.dueTime}`;
-        }else{
-
+        }
+        else
+        {
             const resultDiv = document.getElementById('result');
             resultDiv.innerText = 'Please add request on working time';
 
@@ -33,14 +34,13 @@ document.getElementById('dueDateForm').addEventListener('submit', async function
                     },
                     body: JSON.stringify({ submitDate, turnaroundHours })
                 });
-        
+                button.remove();
                 const data = await response.json();
                 document.getElementById('result').innerText = `Due Date: ${data.dueDate}, Due Time: ${data.dueTime}`;
             }
                 button.remove();
             });
             document.body.appendChild(button);
-
         }
         if (!response.ok) {
             throw new Error(data.message || 'Failed to calculate due date.');
