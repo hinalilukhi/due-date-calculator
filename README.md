@@ -17,8 +17,8 @@ How to access in browser: **http://localhost:8080/**
 4. Not using third party library to automatically add time or days
 Additional task: User can forcefully report a problem even if it is not working time
 
-Followed Test Driven Developement while writing the code,
-Tried to make my code as clean as possible
+Followed **Test Driven Developement** while writing the code,
+Tried to make my **code as clean as possible**
 
 **Technology stack:**
 1. Backend : Node, express, dotenv (useful in protecting the secret constant values)
